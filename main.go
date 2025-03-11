@@ -9,31 +9,6 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-// const raygunFolder = "presets/"
-
-// func main() {
-// 	suites, err := raygun.GetTestSuites(raygunFolder)
-// 	if err != nil {
-// 		panic(err)
-// 	}
-
-// 	postmanCollection, err := postman.CreateCollection(suites)
-// 	if err != nil {
-// 		panic(err)
-// 	}
-// 	if err := postman.WriteToFile(postmanCollection, "raygun.postman_collection.json"); err != nil {
-// 		panic(err)
-// 	}
-
-// 	openAPISpec, err := openapi.CreateOpenAPISpec(suites)
-// 	if err != nil {
-// 		panic(err)
-// 	}
-// 	if err := openapi.WriteToFile(openAPISpec, "raygun.openapi.yaml"); err != nil {
-// 		panic(err)
-// 	}
-// }
-
 // build flags
 var (
 	VERSION   string
