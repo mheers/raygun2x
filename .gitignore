@@ -1,0 +1,7 @@
+*.yaml
+*.raygun
+*.json
+__debug_bin*
+.VERSION
+raygun2x
+bin
